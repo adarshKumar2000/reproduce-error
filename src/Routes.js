@@ -3,7 +3,7 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import HomeScreen from "./pages/HomeScreen";
 import ProfilePage from "./pages/ProfilePage";
-import Resources from "./pages/Resources";
+import Resources from "./pages/Resources ";
 
 const renderRoutes = () => (
   <Switch>
@@ -11,7 +11,7 @@ const renderRoutes = () => (
     <Route path="/profile" exact component={ProfilePage} />
     <Route path="/resources/:coursename" exact component={Resources} />
   </Switch>
-  
+
 );
 
 function Routes() {
